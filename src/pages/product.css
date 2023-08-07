@@ -1,0 +1,11 @@
+.product-page {
+  display: float;
+}
+
+.product-image {
+  float: left;
+  width: 40%;
+  /* height: 100vh; */
+  background-color: wheat;
+  margin-right: 5rem;
+}
