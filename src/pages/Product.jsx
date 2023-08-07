@@ -74,7 +74,7 @@ const Product = () => {
           <Text>Price: ${price}</Text>
           <Text style={{ display: "flex" }}>
             Rating: {rating}
-            <Rating defaultValue={2} color="gray" size="xs" count={1} />
+            <Rating defaultValue={2} color="yellow" size="sm" count={1} />
           </Text>
         </Box>
       </Box>
