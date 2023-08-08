@@ -1,4 +1,4 @@
-import { SimpleGrid, Image, Text, Button, Box } from "@mantine/core";
+import { Center, SimpleGrid, Image, Text, Button, Box } from "@mantine/core";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -24,43 +24,59 @@ const Home = () => {
     <SimpleGrid cols={4} spacing="xl" verticalSpacing="xl">
       <Box className="first" id="1">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 1" />
-        <Link to="/product/1">Go To Product!! </Link>
-        <Button>Buy!</Button>
+        <Center>
+          <Link to="/product/1">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="2">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 2" />
-
-        <Button>Load product!</Button>
+        <Center>
+          <Link to="/product/2">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="3">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 3" />
-        <Text>product description</Text>
-        <Button>Buy Now</Button>
+        <Center>
+          <Link to="/product/3">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="4">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 4" />
-        <Text>product description</Text>
-        <Button>Buy Now</Button>
+        <Center>
+          <Link to="/product/4">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="5">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 5" />
-        <Text>product description</Text>
-        <Button>Buy Now</Button>
+        <Center>
+          <Link to="/product/5">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="6">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 6" />
-        <Text>product description</Text>
-        <Button>Buy Now</Button>
+        <Center>
+          <Link to="/product/6">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="7">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 7" />
-        <Text>product description</Text>
-        <Button>Buy Now</Button>
+        <Center>
+          <Link to="/product/7">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
       <Box id="8">
         <Image maw={240} mx="auto" radius="md" src={image} alt="Product 8" />
-        <Text>product description</Text>
-        <Button>Buy Now</Button>
+        <Center>
+          <Link to="/product/8">Go To Product!! </Link>
+          <Button>Buy!</Button>
+        </Center>
       </Box>
     </SimpleGrid>
   );

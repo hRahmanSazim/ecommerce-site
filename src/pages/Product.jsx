@@ -66,9 +66,10 @@ const Product = () => {
               {params.id}
             </Text>
           </Text>
+          <Space h="sm" />
           <Text>Category: {category}</Text>
           <Space h="xl" />
-          <Space h="xl" />
+          {/* <Space h="xl" /> */}
           <Text>{desc}</Text>
           <Space h="xl" />
           <Text>Price: ${price}</Text>
