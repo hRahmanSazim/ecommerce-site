@@ -45,14 +45,14 @@ const Product = () => {
           </Center>
         </Box>
       </Container>
-      <Box className="product-info">
+      <Box>
         <Text fz="xl" fw="900">
           {title}
         </Text>
         <Space h="sm" />
         <Text>Category: {category}</Text>
         <Space h="xl" />
-        {/* <Space h="xl" /> */}
+
         <Text>{desc}</Text>
         <Space h="xl" />
         <Text>Price: ${price}</Text>
