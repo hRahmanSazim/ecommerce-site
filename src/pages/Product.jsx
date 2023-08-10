@@ -25,7 +25,6 @@ const Product = () => {
     async function fetchData() {
       const res = await fetch(`https://dummyjson.com/products/${params.id}`);
       data = await res.json();
-
       setImage(data.thumbnail);
       setDesc(data.description);
       setCategory(data.category);
@@ -52,11 +51,10 @@ const Product = () => {
         <Space h="sm" />
         <Text>Category: {category}</Text>
         <Space h="xl" />
-
         <Text>{desc}</Text>
-        <Space h="xl" />
-        <Text>Price: ${price}</Text>
-        <Text style={{ display: "flex" }}>
+        {/* <Space h="xl" /> */}
+        <Text lineClamp={1} display="flex">
+          Price: ${price} <Space w="xl" />
           Rating: {rating}
           <Rating defaultValue={2} color="yellow" size="sm" count={1} />
         </Text>
